@@ -1,0 +1,94 @@
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family:'Times New Roman', Times, serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: azure;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+        width:45px;
+        padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.container{
+    min-height: 80vh;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    margin: 25px auto;
+    width: 70%;
+    border-radius: 15px;
+    padding: 35px;
+    background-image: url("heart.jpg");
+
+}
+.bottom{
+    position:sticky;
+    height: 80px;
+    background-color: black;
+    color: white;
+    bottom: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin: 15px;
+}
+#myprogressbar{
+    width: 50vw;
+    cursor: pointer;
+}
+.songitem {
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 80%;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-around;
+    border-radius: 5%;
+}
+.time{
+    margin: 0 25px;
+}
+.songitem img{
+    border-radius: 30px;
+    background-color: chartreuse;
+}
+.time i{
+    cursor:grab;
+}
+.songitemcontainer{
+    margin-top: 75px;
+}
+.songinfo{
+    position:absolute;
+    left: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.songinfo img{
+    opacity: 1;
+    transition: opacity 1 ease-in;
+}
